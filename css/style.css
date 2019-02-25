@@ -1,0 +1,254 @@
+/* base-title-color: #FAAD10 */
+
+/* base-text-color: #8E6B34 */
+
+/* base-bg-color: #509B00 */
+
+html, body {
+  font-family: Cinzel, serif;
+}
+
+#content {
+  position: relative;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, .9);
+}
+
+.bg-section {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  background-image: url(/images/bg/p0.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 65px;
+  background-repeat: repeat-y;
+  -webkit-animation: image_presentation 15s ease-in infinite;
+  -moz-animation: image_presentation 15s ease-in infinite;
+  animation: image_presentation 15s ease-in infinite;
+}
+
+@keyframes image_presentation {
+  0% {
+    background-image: url(/images/bg/p0.jpg);
+  }
+  20% {
+    background-image: url(/images/bg/p1.jpg);
+  }
+  40% {
+    background-image: url(/images/bg/p2.jpg);
+  }
+  60% {
+    background-image: url(/images/bg/p3.jpg);
+  }
+  80% {
+    background-image: url(/images/bg/p4.jpg);
+  }
+  100% {
+    background-image: url(/images/bg/p0.jpg);
+  }
+}
+
+.title {
+  font-family: Oregano, cursive;
+}
+
+.navbar {
+  background-color: #ffffff;
+  font-size: 2em;
+  border-bottom: 1px solid #509B00;
+}
+
+.navbar .social-buttons {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+
+.navbar .social-buttons a {
+  color: #FAAD10;
+  text-decoration: none;
+}
+
+.navbar .social-buttons a:hover {
+  color: #9de4cf;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  margin: 0px auto;
+}
+
+.navbar .nav-item {
+  padding: 0px 20px;
+}
+
+.navbar .nav-item a.nav-link {
+  color: #8E6B34 !important;
+  font-family: Oregano, cursive;
+}
+
+.navbar .nav-item a.nav-link:hover {
+  color: #9de4cf !important;
+}
+
+.navbar-toggler div {
+  position: relative;
+  border: 2px solid #9de4cf;
+  width: 25px;
+  margin: 5px auto;
+}
+
+section {
+  min-height: 100vh;
+  padding: 0px;
+  padding-top: 120px;
+}
+
+section.alternate {
+  background-color: #ffffff;
+}
+
+h2 {
+  color: #8E6B34;
+}
+h3 {
+  color: #FAAD10;
+  font-family: Oregano;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.refazenda-container {
+  background-color: rgba(255, 255, 255, .5);
+  text-align: center;
+}
+
+a h2.section-title {
+  position: absolute;
+  z-index: 10;
+  right: 15px;
+  bottom: -10px;
+  left: 15px;
+  padding: 35px;
+  text-align: center;
+  font-family: Oregano;
+  font-size: 3em;
+  text-transform: uppercase;
+  background-color: rgba(157, 228, 207, .9);
+  color: #ffffff;
+}
+
+a h2.section-title.no-margin {
+  right: 0;
+  left: 0;
+}
+
+a:hover h2.section-title {
+  color: #FAAD10;
+}
+
+#decoracao .photo-album {
+  max-height: calc(100vh - 120px);
+}
+
+.slide-container {
+  overflow: hidden;
+  width: 100%;
+  max-height: 85vh;
+}
+
+.slide-container img {
+  min-height: 85vh;
+  max-height: 89vh;
+  min-width: 33vw;
+}
+
+.slide-container.slide-right img {
+  float: right;
+    /* margin-right: -150px; */
+}
+
+.btn-primary {
+  background-color: #FAAD10;
+  border-color: #FAAD10;
+}
+
+.btn-primary:hover {
+  background-color: #8E6B34;
+  border-color: #8E6B34;
+}
+
+.btn-secondary {
+  background-color: #9de4cf;
+  border-color: #9de4cf;
+}
+
+.btn-secondary:hover {
+  color: #5BA300;
+  border-color: #5BA300;
+}
+
+a.unstyled {
+  text-decoration: none;
+  color: #FAAD10;
+}
+
+a.contact-icon {
+  display: block;
+  margin: 5px 15px;
+  padding: 5px;
+  width: 100%;
+  background-color: #9de4cf;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: Oregano, cursive;
+  font-size: 1.5em;
+}
+
+a.contact-icon:first-child {
+  margin-top: 0px;
+}
+
+a.contact-icon:last-child {
+  margin-bottom: 20px;
+}
+
+a.contact-icon:hover {
+  color: #5BA300;
+}
+
+.form-control {
+  border-color: #FAAD10;
+}
+
+@media only screen and (max-width: 600px) {
+  .hide-mobile {
+    display: none;
+  }
+  section {
+    padding-top: 58px;
+  }
+  .bg-section {
+    background-position-y: 58px;
+    background-size: 250vh;
+  }
+  .short-section {
+    max-height: 28vh;
+    overflow: hidden;
+    margin: 10px auto;
+  }
+  .logo {
+    max-width: 50vw;
+  }
+  a h2.section-title {
+    font-size: 1.5em;
+  }
+  .refazenda-container {
+    margin: auto 15px;
+  }
+}
