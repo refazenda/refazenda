@@ -26,30 +26,6 @@ html, body {
   background-position-x: center;
   background-position-y: 65px;
   background-repeat: repeat-y;
-  -webkit-animation: image_presentation 15s ease-in infinite;
-  -moz-animation: image_presentation 15s ease-in infinite;
-  animation: image_presentation 15s ease-in infinite;
-}
-
-@keyframes image_presentation {
-  0% {
-    background-image: url(/images/bg/p0.jpg);
-  }
-  20% {
-    background-image: url(/images/bg/p1.jpg);
-  }
-  40% {
-    background-image: url(/images/bg/p2.jpg);
-  }
-  60% {
-    background-image: url(/images/bg/p3.jpg);
-  }
-  80% {
-    background-image: url(/images/bg/p4.jpg);
-  }
-  100% {
-    background-image: url(/images/bg/p0.jpg);
-  }
 }
 
 .title {
