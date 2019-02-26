@@ -4,7 +4,8 @@
 
 /* base-bg-color: #509B00 */
 
-html, body {
+html,
+body {
   font-family: Cinzel, serif;
 }
 
@@ -40,6 +41,7 @@ html, body {
   background-color: #ffffff;
   font-size: 2em;
   border-bottom: 1px solid #509B00;
+  padding: 0rem 1rem;
 }
 
 .navbar .social-buttons {
@@ -85,7 +87,7 @@ html, body {
 section {
   min-height: 100vh;
   padding: 0px;
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 section.alternate {
@@ -95,11 +97,17 @@ section.alternate {
 h2 {
   color: #8E6B34;
 }
+
 h3 {
   color: #FAAD10;
   font-family: Oregano;
   font-size: 2.5rem;
   text-align: center;
+}
+
+.short-section {
+  max-height: calc(100vh - 100px);
+  overflow: hidden;
 }
 
 .refazenda-container {
@@ -149,7 +157,7 @@ a:hover h2.section-title {
 
 .slide-container.slide-right img {
   float: right;
-    /* margin-right: -150px; */
+  /* margin-right: -150px; */
 }
 
 .btn-primary {
@@ -210,24 +218,39 @@ a.contact-icon:hover {
   .hide-mobile {
     display: none;
   }
-  section {
-    padding-top: 58px;
+
+  .navbar .social-buttons {
+    top: 0px;
   }
+
+  section {
+    padding-top: 45px;
+  }
+
+  .slide-sub {
+    max-width: 45%;
+    padding-left: 5px;
+  }
+
   .bg-section {
     background-position-y: 58px;
     background-size: 250vh;
   }
+
   .short-section {
     max-height: 28vh;
     overflow: hidden;
     margin: 10px auto;
   }
+
   .logo {
     max-width: 50vw;
   }
+
   a h2.section-title {
     font-size: 1.5em;
   }
+
   .refazenda-container {
     margin: auto 15px;
   }

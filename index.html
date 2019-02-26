@@ -10,8 +10,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link href="https://fonts.googleapis.com/css?family=Cinzel|Oregano" rel="stylesheet">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css?v=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -23,13 +22,11 @@
       <a class="mx-3" href="https://facebook.com/refazendafestas/" target="_blank" title="/refazendafestas">
         <i class="fa fa-facebook-official"></i>
       </a>
-      <a class="mx-3" href="https://www.instagram.com/refazenda_festascomafeto/" target="_blank"
-        title="@refazenda_festascomafeto">
+      <a class="mx-3" href="https://www.instagram.com/refazenda_festascomafeto/" target="_blank" title="@refazenda_festascomafeto">
         <i class="fa fa-instagram"></i>
       </a>
     </div>
-    <button id="menu-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-principal"
-      aria-controls="menu-principal" aria-expanded="false" aria-label="Alternar visibilidade do menu">
+    <button id="menu-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Alternar visibilidade do menu">
       <div></div>
       <div></div>
       <div></div>
@@ -57,7 +54,15 @@
   <main id="content">
     <section id="home" class="container-fluid">
       <div class="row justify-content-md-center">
-        <div class="col-md-4 short-section">
+        <div class="col-md-4 order-md-2 short-section refazenda-container">
+          <a class="unstyled" href="#refazenda">
+            <h2 class="section-title no-margin">A Refazenda</h2>
+            <h1 class="title hide-mobile">REFAZENDA</h1>
+            <img class="img-fluid logo" src="/images/logo.png" alt="Refazenda festas com afeto" />
+            <h2 class="title hide-mobile">Festas com Afeto</h2>
+          </a>
+        </div>
+        <div class="col-md-4 order-md-1 short-section">
           <a class="unstyled" href="#decoracao">
             <h2 class="section-title">Decoração</h2>
             <div class="carousel slide carousel-fade" data-ride="carousel" data-interval="1500">
@@ -91,15 +96,7 @@
             </div>
           </a>
         </div>
-        <div class="col-md-4 short-section refazenda-container">
-          <a class="unstyled" href="#refazenda">
-            <h2 class="section-title no-margin">A Refazenda</h2>
-            <h1 class="title hide-mobile">REFAZENDA</h1>
-            <img class="img-fluid logo" src="/images/logo.png" alt="Refazenda festas com afeto" />
-            <h2 class="title hide-mobile">Festas com Afeto</h2>
-          </a>
-        </div>
-        <div class="col-md-4 short-section">
+        <div class="col-md-4 order-md-3 short-section">
           <a href="#buffet">
             <h2 class="section-title">Buffet</h2>
             <div class="carousel slide carousel-fade" data-ride="carousel" data-interval="1500">
@@ -143,7 +140,9 @@
         </div>
         <div class="col-md-6">
           <h2>O que é a REFAZENDA?</h2>
-          <p>É um projeto pessoal de Priscila Vicente, formada em gastronomia, com mais de 10 anos de experiencia em
+          <p>
+            <img src="/images/slides/refa-01.jpg" class="pull-right d-md-none slide-sub" />
+            É um projeto pessoal de Priscila Vicente, formada em gastronomia, com mais de 10 anos de experiencia em
             produção de eventos e apaixonada em receber
             bem. Com o nascimento do seu primeiro filho, tudo se juntou de uma forma mágica. </p>
           <p>No primeiro aniversário do
@@ -158,12 +157,12 @@
             recordar esse momento tão especial. Mas, principalmente, o aniversariante precisa sentir que tudo aquilo foi pensado com carinho
             para ele!</p>
           <p>Todo esse sentimento é o que envolve e guia a REFAZENDA.</p>
-          
+
           <p>Nossos clientes são nosso principal foco. Queremos que todos tenham a oportunidade de comemorar! E que as
             crianças possam ter momentos com muito amor e alegria, com sorrisos estampados no rosto.</p>
           <p class="destaque">Por onde passarmos queremos deixar memórias de uma infância leve e feliz!</p>
         </div>
-        <div id="refazenda-slides" class="col-md-4 short-section">
+        <div id="refazenda-slides" class="col-md-4 short-section hide-mobile">
           <div class="slide-container">
             <img src="/images/slides/refa-01.jpg" alt="Quem somos" />
           </div>
@@ -260,11 +259,11 @@
         </div>
         <div class="col-md-6">
           <h2 class="text-center title">Decoração</h2>
-          <p>Praesent accumsan nec velit sed rhoncus. Mauris laoreet purus sit amet augue tempor molestie. Curabitur luctus, ligula vel vehicula rutrum, eros mauris aliquam eros, ac varius diam enim nec ipsum. Nam id nisl sit amet lacus iaculis volutpat ut id lorem. Nulla posuere tempor tortor non efficitur. Fusce laoreet condimentum ex, non rutrum erat rutrum a. Curabitur imperdiet consectetur finibus.</p>
-          <p>Quisque tincidunt ligula non mi venenatis, eu sagittis eros pellentesque. Proin feugiat fermentum nisi, eget egestas felis accumsan in. Aenean suscipit libero sed tellus rhoncus, vel condimentum elit posuere. Etiam ultrices eros sit amet congue porta. Quisque congue pulvinar nisl nec dictum. Nullam sit amet purus in urna cursus feugiat. Aliquam semper leo porta, vestibulum eros ac, tempus nisl. Nunc commodo diam leo, a porta massa feugiat vel. Maecenas orci mauris, suscipit quis nisl vel, facilisis volutpat libero. Aliquam in semper orci, eu malesuada magna. Pellentesque id felis ut lorem ornare viverra eu sed sem. Cras luctus gravida odio, eu accumsan urna volutpat sit amet. Nam elementum at orci ut molestie. Cras eu nisi ex. Integer euismod blandit ligula ac dignissim.</p>
-          <p class="text-center"">
-                  Quer saber mais? <br/>
-                  <a class=" btn btn-secondary" href="#contate-nos">Entre em contato conosco</a>
+          <p class="destaque">Para nós a decoração vai muito além de transformar um ambiente. Decorações contam uma história.</p>
+          <p>É através da decoração que nos conectamos realmente com nossos clientes, seja na busca pelo tema que mais traduza os gostos daquela criança, seja na escolha das cores e peças que imprimam a personalidade daquela família. É na decoração que iremos eternizar características de uma fase tão especial!</p>
+          <p>Por isso acreditamos que os projetos devem ser desenvolvidos passo a passo com nossos clientes, fazemos isso, desenvolvendo eles com exclusividade de acordo com o gosto e necessidades de cada um!</p>
+          <p class="text-center">Nos mande uma mensagem, e deixe-nos transformar a sua história em uma linda festa!<br />
+            <a class=" btn btn-secondary" href="#contate-nos">Entre em contato conosco</a>
           </p>
         </div>
         <div class="col-md-2 hide-mobile">
@@ -281,29 +280,13 @@
         </div>
         <div class="col-md-6">
           <h2 class="text-center title">Buffet</h2>
-          <p>Pellentesque in ligula mauris. Etiam a nisl eget quam molestie pellentesque suscipit mattis enim. Vivamus
-            vitae
-            nunc in odio rutrum ullamcorper. Etiam fringilla maximus massa, eget vehicula tellus pretium et. Fusce
-            molestie eu
-            dui ut sagittis. Nam eros neque, maximus eget libero nec, scelerisque interdum neque. Sed enim velit, rutrum
-            et
-            lacinia eget, mollis quis erat. Morbi in porta tortor, eget hendrerit tellus. Phasellus nec volutpat eros.
-            Suspendisse venenatis bibendum elit, at convallis nisl consectetur vitae. Nullam sit amet dictum arcu, a
-            interdum
-            nisi. Suspendisse potenti. Integer sed condimentum dui. Interdum et malesuada fames ac ante ipsum primis in
-            faucibus. Fusce et placerat elit, in posuere arcu. Phasellus sit amet dolor felis.</p>
-          <p>Ut vitae tellus sit amet lorem efficitur venenatis. Duis id sapien est. Suspendisse sollicitudin massa
-            orci.
-            Maecenas pharetra nulla a dui tristique lacinia. Proin eu nisi nibh. Cras porttitor leo id libero mattis,
-            eget
-            malesuada justo scelerisque. Vivamus vitae neque bibendum, mattis libero vel, tincidunt nisl. Aliquam
-            viverra lectus
-            sit amet mollis scelerisque. Donec sit amet semper lectus, vel tincidunt neque. Vivamus ac libero eget nunc
-            commodo
-            porta.</p>
-          <p class="text-center"">
-                Quer saber mais? <br/>
-                <a class=" btn btn-secondary" href="#contate-nos">Entre em contato conosco</a>
+          <p>Nosso buffet foi pensado e idealizado pela Cheff Priscila Vicente, que assina todos os cardápios e receitas!</p>
+          <p>Apesar de já ter trabalhado em restaurantes renomados em São Paulo, foi no tempero caseiro, na “comidinha de vó”, na simplicidade do lanchinho da tarde e no cheirinho de comida boa no fogão, que se criaram a melhores memórias nas nossas vidas. Por isso, é esse o sabor que damos as nossas festas. Tudo fresquinho e gostoso, cardápio variado para agradar as crianças de 1, 2 e 60 anos.</p>
+          <p class="destaque">Trazendo à memória momentos deliciosos e ajudando a criar lembranças felizes!</p>
+          <p>Aqui no nosso buffet, não medimos esforços para fazer a festa do seu jeito. Fique a vontade em pedir um cardápio personalizado! Por alguma restrição alimentar, ou até mesmo por aquela receita de família que não pode faltar em sua comemoração. Estamos prontos para te atender com qualquer necessidade.</p>
+          <p>Para a nossa empresa a sustentabilidade e a consciência social é algo muito importante, assim como a segurança dos nossos clientes mais especiais. Por isso não usamos louças, nem descartáveis. Nosso material foi pensado e desenvolvido para trazer alegria e segurança para todos com o menor impacto ambiental possível!</p>
+          <p class="text-center">Nos mande uma mensagem, e deixe-nos transformar a sua história em uma linda festa!<br />
+            <a class=" btn btn-secondary" href="#contate-nos">Entre em contato conosco</a>
           </p>
         </div>
         <div class="col-md-4 short-section">
@@ -377,9 +360,9 @@
           </div>
         </div>
         <div class="col-md-6">
+          <h2 class="text-center title">Entre em contato:</h2>
           <div class="row justify-content-center">
-            <a class="contact-icon" href="https://wa.me/5511999875635?text=Olá%21%20Gostaria%20de%20mais%20informações."
-              target="_blank" title="+55 11 99987-5635">
+            <a class="contact-icon" href="https://wa.me/5511999875635?text=Olá%21%20Gostaria%20de%20mais%20informações." target="_blank" title="+55 11 99987-5635">
               <i class="fa fa-whatsapp fa-2x fa-fw"></i>
               Whatsapp: +55 (11) 99987-5635
             </a>
@@ -444,14 +427,8 @@
       </div>
     </section>
   </main>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 </body>
