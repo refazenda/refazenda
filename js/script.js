@@ -21,7 +21,6 @@ function toggleMenu(){
 }
 function showImageTheater(image, alt) {
   $("[data-behavior~='theater-image']").attr("src", image);
-  $("[data-behavior~='theater-subtitle']").text(alt);
   $("body").addClass("showing");
 }
 function hideImageTheater() {
